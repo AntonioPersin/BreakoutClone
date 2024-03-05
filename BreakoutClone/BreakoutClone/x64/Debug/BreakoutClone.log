@@ -1,0 +1,12 @@
+﻿  Ball.cpp
+  BreakableBrick.cpp
+  Brick.cpp
+  CollisionManager.cpp
+  Game.cpp
+  GameTicker.cpp
+  Level.cpp
+  main.cpp
+  Paddle.cpp
+  SoundManager.cpp
+  Generating Code...
+  BreakoutClone.vcxproj -> D:\Antonio Persin\GitHub\BreakoutClone\BreakoutClone\x64\Debug\BreakoutClone.exe

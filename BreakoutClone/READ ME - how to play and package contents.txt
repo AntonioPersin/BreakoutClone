@@ -1,0 +1,25 @@
+This solution contains two projects. One project is the game itself (BreakcoutClone),
+other project is the setup for the game (BreakoutCloneSetup)
+
+Relese version of the game can be located in 
+x64\Release folder
+
+Installer can be located in
+BreakoutCloneSetup\Release folder
+
+
+Game:
+
+Start screen contains previous run score (of current play session) and has 2 controls.
+Space to start playing or ESC to close the game.
+
+Game begins on level 0 with default brick configuration. When the player beats the level,
+new level is randomly chosen between 9 available levels which vary in difficulty. Once that 
+level is beaten, a new level is chosen again. Game lasts until player reaches a score limit.
+(currently 69 420, which depending on the levels generated would be about 12-14 levels)
+
+Player moves the paddle with A and D keys and has 3 lives. Losing a life pauses the game
+until player presses Spacebar which resets the ball and continues. 
+Pressing Q returns the player to start screen without saving progress.
+
+Game should run if Visual C++ redistributable package is updated. (installer provided)

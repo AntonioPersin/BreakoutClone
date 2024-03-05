@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BreakoutClone", "BreakoutClone\BreakoutClone.vcxproj", "{6DD1B453-0160-4CB7-8FE2-C6AB68303283}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BreakoutCloneSetup", "BreakoutCloneSetup\BreakoutCloneSetup.vdproj", "{7E1DFAF8-4C74-4293-A6F1-C8E73B61EB28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DD1B453-0160-4CB7-8FE2-C6AB68303283}.Debug|x64.ActiveCfg = Debug|x64
+		{6DD1B453-0160-4CB7-8FE2-C6AB68303283}.Debug|x64.Build.0 = Debug|x64
+		{6DD1B453-0160-4CB7-8FE2-C6AB68303283}.Debug|x86.ActiveCfg = Debug|Win32
+		{6DD1B453-0160-4CB7-8FE2-C6AB68303283}.Debug|x86.Build.0 = Debug|Win32
+		{6DD1B453-0160-4CB7-8FE2-C6AB68303283}.Release|x64.ActiveCfg = Release|x64
+		{6DD1B453-0160-4CB7-8FE2-C6AB68303283}.Release|x64.Build.0 = Release|x64
+		{6DD1B453-0160-4CB7-8FE2-C6AB68303283}.Release|x86.ActiveCfg = Release|Win32
+		{6DD1B453-0160-4CB7-8FE2-C6AB68303283}.Release|x86.Build.0 = Release|Win32
+		{7E1DFAF8-4C74-4293-A6F1-C8E73B61EB28}.Debug|x64.ActiveCfg = Debug
+		{7E1DFAF8-4C74-4293-A6F1-C8E73B61EB28}.Debug|x86.ActiveCfg = Debug
+		{7E1DFAF8-4C74-4293-A6F1-C8E73B61EB28}.Release|x64.ActiveCfg = Release
+		{7E1DFAF8-4C74-4293-A6F1-C8E73B61EB28}.Release|x64.Build.0 = Release
+		{7E1DFAF8-4C74-4293-A6F1-C8E73B61EB28}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE2FD90E-B497-4EEA-9144-F815A309EB42}
+	EndGlobalSection
+EndGlobal

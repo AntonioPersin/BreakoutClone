@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Level
+  RowCount="8"
+  ColumnCount="20"
+  Padding="5"
+  BackgroundTexture="images/misc/game_background.jpg">
+    <BrickTypes>
+      <!-- Soft Brick -->
+      <BrickType
+       Id='S'
+       Texture="images/bricks/green_brick.jpg"
+       HitPoints="1"
+       HitSound="sounds/bounce_1.wav"
+       BreakSound="sounds/bounce_1.wav"
+       BreakScore="50" />
+      <!-- Medium Brick -->
+      <BrickType
+       Id='M'
+       Texture="images/bricks/yellow_brick.jpg"
+       HitPoints="2"
+       HitSound="sounds/bounce_1.wav"
+       BreakSound="sounds/bounce_1.wav"
+       BreakScore="100" />
+      <!-- Hard Brick -->
+      <BrickType
+       Id='H'
+       Texture="images/bricks/green_brick.jpg"
+       HitPoints="3"
+       HitSound="sounds/bounce_1.wav"
+       BreakSound="sounds/bounce_1.wav"
+       BreakScore="150" />
+      <!-- Impenetrable Brick -->
+      <BrickType
+       Id='I'
+       Texture="images/bricks/gray_brick.jpg"
+       HitSound="sounds/bounce_1.wav" />
+    </BrickTypes>
+  <Bricks>
+    H M X S H M X S H M X S H M X S H M X S
+    S H M X S H M X S H M X S H M X S H M X
+    X S H M X S H M X S H M X S H M X S H M
+    M X S H M X S H M X S H M X S H M X S H
+    H M X S H M X S H M X S H M X S H M X S
+    M X S H M X S H M X S H M X S H M X S H
+    S H M X S H M X S H M X S H M X S H M X
+    X S H M X S H M X S H M X S H M X S H M
+  </Bricks>
+</Level>

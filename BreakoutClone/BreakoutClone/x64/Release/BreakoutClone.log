@@ -1,0 +1,15 @@
+﻿  Ball.cpp
+  BreakableBrick.cpp
+  Brick.cpp
+  CollisionManager.cpp
+  Game.cpp
+  GameTicker.cpp
+  Level.cpp
+  main.cpp
+  Paddle.cpp
+  SoundManager.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 592 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BreakoutClone.vcxproj -> D:\Antonio Persin\GitHub\BreakoutClone\BreakoutClone\x64\Release\BreakoutClone.exe
